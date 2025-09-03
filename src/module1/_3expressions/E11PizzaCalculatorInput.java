@@ -11,7 +11,14 @@ public class E11PizzaCalculatorInput {
         int pizzaSlices, numPeople, slicesPerPerson, leftoverSlices;
         Scanner scan = new Scanner(System.in);
         //add code to initialize pizzaSlices and numPeople from user input 
-        
+        System.out.println("How many slices?");
+        pizzaSlices = scan.nextInt();
+        System.out.println("How many people?");
+		numPeople = scan.nextInt();
+		slicesPerPerson = pizzaSlices / numPeople;
+		leftoverSlices = pizzaSlices % numPeople;
+		System.out.print("You will have " + slicesPerPerson + " slices per person, and ");
+		System.out.println(leftoverSlices + " slice(s) leftover!");
         
         //add code to compute and print slicesPerPerson and leftoverSlices
        
