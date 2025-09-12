@@ -6,11 +6,13 @@ public class E04DanglingElseTest {
 	//so that it does function properly.
 	public static void main(String[] args) {
 		boolean sunny = true;
-		boolean hot = false;
-		if (sunny)
+		boolean hot = true;
+		if (sunny) {
 			if (hot)
 				System.out.println("Head for the beach!");
-		else // Which if is else attached to??
+		}
+		else {// Which if is else attached to??
 			System.out.println("Bring your umbrella!");
+		}
 	}
 }

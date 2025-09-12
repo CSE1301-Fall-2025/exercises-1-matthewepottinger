@@ -4,7 +4,7 @@ public class E01TestElseIf {
 	//Exercise 1: Try changing the value of x so that you see
 	//all three outcomes
 	public static void main(String[] args) {
-		int x = 2;
+		int x = -9;
 		if (x < 0) {
 			System.out.println("x is negative");
 		}
