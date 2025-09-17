@@ -6,9 +6,10 @@ public class E03TwoDArrayInitGet {
 	public static void main(String[] args) {
 		String[][] seatingInfo = { {"Jamal", "Maria"},
 				{"Jake", "Suzy"},
-				{"Emma", "Luke"} };
-		String name = seatingInfo[0][0];
-		System.out.println(name + " is at [0,0]");
+				{"Emma", "Luke"},
+				{"Matthew", "Margo"} };
+		String name = seatingInfo[3][1];
+		System.out.println(name + " is at [3,1]");
 
 	}
 }
